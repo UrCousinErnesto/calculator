@@ -7,7 +7,7 @@ function d(val) {
 
 //Type numbers and operators
 function v(val) {
-	document.getElementaryById("d").value += val;
+	document.getElementById("d").value += val;
 }
 
 //Evaluate the equation
