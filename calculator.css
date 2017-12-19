@@ -2,7 +2,7 @@
 /* CSS Document */
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
+	background-color: rgba(133,195,212,1.00);
 	height: 300px;
 	width: 250px;
 	border-radius: 10px;
@@ -13,7 +13,7 @@
 
 /* Display */
 .display {
-	background-color: #bfc4ce;
+	background-color: rgba(0,33,94,1.00);
 	height: 40px;
 	width: 220px;
 	position: relative;
@@ -47,19 +47,19 @@
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: rgba(1,27,153,1.00);
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: rgba(2,17,61,1.00);
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.number {
 	color: white;
-	background-color: #7091ab;
+	background-color: rgba(26,143,213,1.00);
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
@@ -78,3 +78,6 @@
 	border-bottom: 2px #6f6f6f solid;
 }
 	
+body {
+	background-image:url("snow2.jpg")
+}
